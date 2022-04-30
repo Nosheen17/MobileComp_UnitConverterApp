@@ -14,7 +14,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-      
+        editText=(EditText) findViewById(R.id.editText);
+        textView=(TextView) findViewById(R.id.textView);
+        textView2=(TextView) findViewById(R.id.textView2);
+        textView4=(TextView) findViewById(R.id.textView4);
+        valueOfPounds=(TextView) findViewById(R.id.valueOfPounds);
 
 
     }
