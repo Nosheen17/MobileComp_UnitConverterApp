@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     {
         String valueinKilo=editText.getText().toString();
         double Kilo=Double.parseDouble(valueinKilo);
-        
+        double pound=Kilo*2.205;
+        valueOfPounds.setText(""+pound);
     }
 }
