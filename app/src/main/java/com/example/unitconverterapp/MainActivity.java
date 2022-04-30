@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
     private void Converter()
     {
         String valueinKilo=editText.getText().toString();
+        double Kilo=Double.parseDouble(valueinKilo);
         
     }
 }
